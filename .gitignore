@@ -1,0 +1,16 @@
+# Banco de dados n8n
+*.sqlite
+*.sqlite-*
+database-backup.sqlite
+
+# Configuração e logs
+config
+*.log
+crash.journal
+
+# Dados locais do n8n
+nodes/
+storage/
+
+# Arquivos temporários
+*.journal
